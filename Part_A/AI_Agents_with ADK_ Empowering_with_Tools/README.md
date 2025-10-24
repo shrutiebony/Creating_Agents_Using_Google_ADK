@@ -1,5 +1,4 @@
-# AI Proposal Architect with ADK: Kitchen Design Agent
-
+# AI Proposal Architect with ADK
 
 
 ---
@@ -29,12 +28,11 @@ By completing this project, you’ll learn how to:
 
 Before starting, ensure you have:
 
-| Requirement | Description |
-|--------------|-------------|
-| 1) **Google Cloud Project** | Billing enabled and APIs activated |
-| 2) **Google Cloud Shell** | Recommended for consistent environment |
-| 3) **Vertex AI API** | Must be enabled in your GCP project |
-| 4) **GCS Bucket** | Destination for proposal document storage |
+| Requirement                 | Description                               |
+| 1) **Google Cloud Project** | Billing enabled and APIs activated        |
+| 2) **Google Cloud Shell**   | Recommended for consistent environment    |
+| 3) **Vertex AI API**        | Must be enabled in your GCP project       |
+| 4) **GCS Bucket**           | Destination for proposal document storage |
 
 ---
 
@@ -114,19 +112,6 @@ sequenceDiagram
   T-->>A: Success + URL
   A-->>U: Respond with GCS file link
 
-```
-
----
-
-## 🧠 What You’ll Learn
-
-| Concept                    | Description                                                           |
-| -------------------------- | --------------------------------------------------------------------- |
-| **ADK Fundamentals**       | Learn to define, orchestrate, and deploy agents with Vertex AI ADK.   |
-| **Tool Integration**       | Add and use tools for saving files, executing logic, or calling APIs. |
-| **Environment Management** | Configure `.env`, Cloud access, and IAM roles.                        |
-| **Agentic Thinking**       | Build goal-oriented systems that autonomously complete tasks.         |
-
 ---
 
 ## 🪄 Example Use Case
@@ -142,22 +127,5 @@ sequenceDiagram
 
 ---
 
-## 🔗 Reference
-
-Original Codelab Source
-
-For the full, detailed implementation steps and deep dives into the Gemini CLI integration, refer to the official codelab:
-
-https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-empowering-with-tools#0
-
-For further learning and documentation:
-
-* [Vertex AI Agent Development Kit (ADK)](https://cloud.google.com/vertex-ai/docs/agents/overview)
-* [Google Cloud Storage Documentation](https://cloud.google.com/storage/docs)
-* [Gemini Models Overview](https://deepmind.google/technologies/gemini/)
-* [Google Cloud Shell Quickstart](https://cloud.google.com/shell/docs/quickstart)
-* [Google Cloud IAM Roles](https://cloud.google.com/iam/docs/understanding-roles)
-
----
 
 
