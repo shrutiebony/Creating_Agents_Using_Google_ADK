@@ -16,7 +16,8 @@ Google Codelabs
 4) Hackathon Project – Agent Application Implementation: Choose an agent from the curated list in the Awesome ADK Agents repository (90+ templates & community-built agents) 
 
 #### Features
-Structured learning: from basic to intermediate to real-world application
-Focused on modern workflows: agents with tools, multi-agent orchestration, MCP integration
+1) Structured learning: from basic to intermediate to real-world application
+2) Focused on modern workflows: agents with tools, multi-agent orchestration, MCP integration
+
 
 
