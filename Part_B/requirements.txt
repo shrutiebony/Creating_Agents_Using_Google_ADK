@@ -1,0 +1,15 @@
+google-adk
+litellm
+ollama
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+xgboost
+flask
+fastapi
+python-dotenv
+streamlit
+

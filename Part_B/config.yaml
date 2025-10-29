@@ -1,0 +1,47 @@
+# Data Science Agent Configuration
+
+model:
+  name: "ollama_chat/qwen2.5:7b"
+  temperature: 0.7
+  max_tokens: 4000
+
+agents:
+  orchestrator:
+    name: "Data Science Orchestrator"
+    enabled: true
+  
+  data_analyst:
+    name: "Data Analyst"
+    enabled: true
+  
+  ml_engineer:
+    name: "Machine Learning Engineer"
+    enabled: true
+  
+  visualization_specialist:
+    name: "Visualization Specialist"
+    enabled: true
+  
+  data_engineer:
+    name: "Data Engineer"
+    enabled: true
+  
+  deployment_engineer:
+    name: "Deployment Engineer"
+    enabled: true
+
+workflows:
+  quick_analysis:
+    sequence: ["data_analyst", "visualization_specialist"]
+  
+  full_pipeline:
+    sequence: ["data_analyst", "ml_engineer", "visualization_specialist"]
+  
+  deployment:
+    sequence: ["ml_engineer", "deployment_engineer"]
+
+settings:
+  save_conversations: true
+  results_directory: "./results"
+  enable_parallel_execution: false
+
