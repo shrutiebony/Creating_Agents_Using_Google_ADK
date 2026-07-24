@@ -1,4 +1,4 @@
-## Agents_using_google_adk_part_A
+## Google ADK Codelabs
 
 Video Link: https://youtu.be/Mb3cJ-TYzhA
 
